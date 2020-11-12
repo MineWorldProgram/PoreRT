@@ -18,7 +18,7 @@ If you like living on the bleeding edge and want to give Pore a try:
 When you spin up your server look for messages like:
 
 ```
-   [STDERR/sponge]: [name.richardson.james.bukkit.utilities.plugin.AbstractPlugin:onEnable:118]: org.apache.commons.lang3.NotImplementedException: TODO
+[STDERR/sponge]: [name.richardson.james.bukkit.utilities.plugin.AbstractPlugin:onEnable:118]: org.apache.commons.lang3.NotImplementedException: TODO
 ```   
 
 These aren't an indication that a feature is broken, but that a feature needed for the plugin you're loading hasn't been implemented yet.
@@ -27,7 +27,7 @@ These aren't an indication that a feature is broken, but that a feature needed f
 
 Gradle is used to handle dependencies.
 
-- Clone the repo: `git clone https://github.com/Maxqia/PoreRT.git`
+- Clone the repo: `git clone https://github.com/MineWorldProgram/PoreRT.git`
 - Navigate to the new directory: `cd PoreRT`
 - Update the Submodules: `git submodule update --init --recursive`
 - Compile the project using the Gradle wrapper: `./gradlew` (`gradlew` on Windows)
@@ -60,7 +60,7 @@ profile.
 
 ## Questions?
 
-Have an issue or a question about PoreRT? No problem! Feel free to ask in #lapis on EsperNet.
+Have an issue or a question about PoreRT? No problem! Feel free open a new issue, but verify if another similar issue is already created.
 
 ## Licensing
 
