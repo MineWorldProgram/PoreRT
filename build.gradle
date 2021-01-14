@@ -126,9 +126,9 @@ dependencies {
     compile project(':ap')
     compile("org.spongepowered:mixin:0.6.1-SNAPSHOT")
 
-    // To update, go to https://repo.spongepowered.org/maven/org/spongepowered/spongeapi/2.1-SNAPSHOT/
+    // To update, go to https://repo.spongepowered.org/maven/org/spongepowered/spongeapi/6.1.0-SNAPSHOT/
     // Then pick latest version (or whatever version you want)
-    compile 'org.spongepowered:spongeapi:6.0.0-20161223.142907-29'
+    compile 'org.spongepowered:spongeapi:6.1.0-20170814.171949-4'
     compile 'org.spongepowered:spongevanilla:1.11-6.0.0-BETA-190'
     runtime 'blue.lapis.methodremapper:tweaker:0.1'
 
